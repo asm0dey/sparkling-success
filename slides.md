@@ -1,0 +1,221 @@
+---
+theme: light-icons
+background: https://source.unsplash.com/collection/94734566/1920x1080
+class: text-center
+highlighter: shiki
+lineNumbers: false
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
+drawings:
+  persist: false
+title: Sparking Success
+mdc: true
+---
+
+# Sparking Success
+
+## Unveiling the Journey of Apache Spark Application Development
+
+Pasha Finkelshteyn, <logos-jetbrains />
+
+
+---
+
+# `whoami`
+
+* Pasha Finkelshteyn
+* Developer Advocate for Data Engineering
+* Mostly <logos-java/><logos-kotlin-icon/> developer
+* Like <logos-python /> too
+* Certificated <logos-airflow-icon/> specialist
+* Average <devicon-plain-sqldeveloper/> enjoyer
+
+---
+layout: center
+---
+
+# Today I'm talking about a data engineering task lifecycle
+
+---
+
+# Understanding the task
+
+#### Tasks usually are vague:
+
+* Create a report
+* Arrange access
+* Arrange data export
+* Support GDPR
+
+<br/>
+<v-click>
+
+**And this is fine!**
+
+</v-click>
+
+---
+
+# Conceptualization
+
+> In information science a conceptualization is an abstract simplified view of some selected part of the world, containing the objects, concepts, and other entities that are presumed of interest for some particular purpose and the relationships between them
+
+Wikipedia 
+
+---
+
+# Conceptualization
+
+> Conceptualization is like creating a mental map or plan in your mind about something. It's the process of thinking up and understanding concepts or ideas. So, it involves taking a lot of data or information (like facts, numbers, or situations) and organizing it in your brain so that it makes sense and can be understood better. It's like building a model or a picture in your head of how things are or how they work.
+
+GPT 4
+
+---
+layout: image-right
+image: /mindmap.webp
+---
+
+# Conceptualization
+
+Writing code is usually the simplest thing.
+
+Complex parts are:
+* Find the data owners
+* Find the data experts
+* Understanding the desired result
+* Defining the way to solve the problem
+
+---
+
+# Data acquisition/planning
+
+When we found owners, we obtain the knowledge about the data from them.
+
+<v-click>
+  
+In a perfect world
+  
+* Find data
+* Understand formats/sources
+* Update tools list?
+
+</v-click>
+
+---
+layout: image-right
+image: /pipeline.svg
+---
+
+# Design the architecture
+
+Now we know the data <v-click><span>hopefully</span></v-click>
+
+<v-click>
+
+* Understand limitations
+* Understand needs
+* Understand SLA (SLO)
+* Understand capabilities
+* Draft an architecture
+* Log to ADR (Architectural Decision Record)
+
+</v-click>
+
+---
+
+# Data Quality?
+
+This step is not always required
+
+At this point we usually need to
+
+* Profile data
+* Write tests
+* Add profile to monitoring
+
+---
+
+# Development
+
+The most boring step :)
+
+---
+layout: center
+---
+
+# DEMO
+
+---
+
+# Testing
+
+After initial implementtion
+
+At this point we already have a solution
+
+What we should test
+
+<table>
+  <tr>
+    <td><b>Data</b></td>
+    <td><b>Code</b></td>
+  </tr>
+  <tr>
+    <td>Data Quality</td>
+    <td>Efficiency</td>
+  </tr>
+  <tr>
+    <td>Data Integrity</td>
+    <td>Correctness</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Completeness</td>
+  </tr>
+</table>
+
+---
+
+# Deployment 
+
+Boring part again :)
+
+---
+layout: center
+---
+
+# DEMO
+
+---
+
+# Operation
+
+Real production
+
+After the first successful deploy/run, we need to automate the job
+* Replace hardcoded with parameters
+* Decide on backfilling
+* Update/Create DAG in orchestrator <logos-airflow-icon/>
+
+---
+
+# Monitoring
+So we know what's happening there
+
+* Grafana dashboard
+* In a perfect world AirBnB-like solution
+
+---
+layout: center
+---
+
+# Iterate
+
+---
+
+# Thank you!
+
+## Questions?
