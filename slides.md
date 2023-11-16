@@ -27,11 +27,11 @@ Pasha Finkelshteyn, <logos-jetbrains />
 # `whoami`
 
 * Pasha Finkelshteyn
-* Developer Advocate for Data Engineering
 * Mostly <logos-java/><logos-kotlin-icon/> developer
 * Like <logos-python /> too
 * Certificated <logos-airflow-icon/> specialist
 * Average <devicon-plain-sqldeveloper/> enjoyer
+* Developer Advocate for Data Engineering
 
 ---
 layout: center
@@ -39,6 +39,8 @@ layout: center
 
 # Today I'm talking about a data engineering task lifecycle
 
+---
+clicks: 2
 ---
 
 # Understanding the task
@@ -51,11 +53,32 @@ layout: center
 * Support GDPR
 
 <br/>
-<v-click>
+<div v-if="$clicks == 1">
 
 **And this is fine!**
 
-</v-click>
+</div>
+<div v-if="$clicks == 2">
+
+Our task: **find the most popular movie genre**
+
+</div>
+
+---
+layout: image
+image: lifecycle2.png
+---
+
+---
+
+# Understand the task
+
+Understand?
+
+"Understand" is a wide term.
+
+In psychology it's called "conceptualize"
+
 
 ---
 
@@ -75,7 +98,7 @@ GPT 4
 
 ---
 layout: image-right
-image: /mindmap.webp
+image: mindmap.webp
 ---
 
 # Conceptualization
@@ -102,11 +125,13 @@ In a perfect world
 * Understand formats/sources
 * Update tools list?
 
+Add icons of tools I use
+
 </v-click>
 
 ---
 layout: image-right
-image: /pipeline.svg
+image: pipeline.svg
 ---
 
 # Design the architecture
