@@ -75,9 +75,9 @@ image: lifecycle2.png
 
 Understand?
 
-"Understand" is a wide term.
+"Understand" is a casual term.
 
-In psychology it's called "conceptualize"
+In psychology and informational science it's called "conceptualize"
 
 
 ---
@@ -130,15 +130,30 @@ Add icons of tools I use
 </v-click>
 
 ---
+layout: image
+image: movielens.png
+---
+
+---
+
+# Movielens
+
+* Exports its data
+* Has all the data interesting to us
+* Exports in CSV
+* We'll convert it to parquet (because typed and compact)
+
+---
 layout: image-right
 image: pipeline.svg
+clicks: 3
 ---
 
 # Design the architecture
 
 Now we know the data <v-click><span>hopefully</span></v-click>
 
-<v-click>
+<v-click v-if="$clicks == 2 ">
 
 * Understand limitations
 * Understand needs
@@ -146,6 +161,13 @@ Now we know the data <v-click><span>hopefully</span></v-click>
 * Understand capabilities
 * Draft an architecture
 * Log to ADR (Architectural Decision Record)
+
+</v-click>
+<v-click v-if="$clicks == 3 ">
+
+For the sake of demo we'll just perform `show`.
+
+In a more real world-scenario it would be some kind of write
 
 </v-click>
 
