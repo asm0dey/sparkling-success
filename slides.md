@@ -286,9 +286,6 @@ image: lifecycle2.png
 
 ---
 
-# Thank you!
-
-## Questions?
 
 # Thank you! Time for questions 😄
 
