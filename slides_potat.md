@@ -125,11 +125,9 @@ In a perfect world
 * Understand formats/sources
 * Update tools list?
 
-# <logos-datagrip/>&nbsp;&nbsp;&nbsp;&nbsp;<logos-pycharm/>&nbsp;&nbsp;&nbsp;&nbsp;<logos-intellij-idea/>
+Add icons of tools I use
 
 </v-click>
-
-
 
 ---
 layout: image
@@ -184,11 +182,6 @@ At this point we usually need to
 * Profile data
 * Write tests
 * Add profile to monitoring
-
-*Tools*:
-
-* DeeQu/PyDeeQu
-* Great Expectations
 
 ---
 
@@ -269,34 +262,7 @@ layout: center
 # Iterate
 
 ---
-layout: image
-image: lifecycle2.png
----
-
-# Lifycecle
-
----
-
-# Summary
-
-* All data engineering tasks share the same lifecycle
-* Programming complex data engineering requires adequate tooling
-* The work always starts with conceptualization!
-* Coding is interesting but is not the only interesting part
-
----
 
 # Thank you!
 
 ## Questions?
-
-# Thank you! Time for questions 😄
-
-<div class="text-left">
-<p><ph-twitter-logo-fill/> asm0di0</p>
-<p><mdi-mastodon/> @asm0dey@fosstodon.org</p>
-<p><ph-envelope-simple-open-fill/> me@asm0dey.site</p>
-<p><ph-twitch-logo-fill/> https://jb.gg/twitch</p>
-<p><ph-github-logo-fill/><ph-instagram-logo-fill/><ph-linkedin-logo-fill/><ph-telegram-logo-fill/> asm0dey</p>
-<p><ph-globe-duotone/><a href="https://linktr.ee/asm0dey">https://linktr.ee/asm0dey</a></p>
-</div>
