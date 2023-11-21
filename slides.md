@@ -31,6 +31,7 @@ Pasha Finkelshteyn, <logos-jetbrains />
 * Like <logos-python /> too
 * Certificated <logos-airflow-icon/> specialist
 * Average <devicon-plain-sqldeveloper/> enjoyer
+* Maintainer of Kotiln API for Apache Spark
 * Developer Advocate for Data Engineering
 
 ---
